@@ -10,6 +10,8 @@
 #ifndef _FDSTREAM_
 #define _FDSTREAM_
 
+#define _XOPEN_SOURCE 700
+
 #include <iostream>
 #if defined(__GLIBCXX__) || defined(__GLIBCPP__)
 #include <unistd.h>

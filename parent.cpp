@@ -17,10 +17,14 @@
  * Public domain Copyleft 2011
  */
 
+#define _XOPEN_SOURCE 700
+
 #include <iostream>
 #include <cstdlib>
 #include <unistd.h>
 #include <csignal>
+
+#include <signal.h>
 
 #include "fdstream.hpp"
 
